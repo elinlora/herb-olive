@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    
+    <mj-title>Herb &amp; Olive</mj-title>
+
+    <mj-preview>Organic CBD EVOO Now In Minis!</mj-preview>
+
+    <mj-font name="" href="" />
+
+    <mj-attributes>
+
+      <mj-class name="" />
+    
+      <mj-text padding="0" font-family="Helvetica" color="#333333" />
+      <mj-wrapper padding="0" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-image padding="0" />
+
+    </mj-attributes>
+
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+      h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      img {
+        border: 0;
+      }
+      body > div > div > div > table {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1) !important;
+      }
+      /* ======> Mobile <====== */
+      @media only screen and (max-width: 599.8px) {
+        .col {
+          width: 100% !important;
+          max-width: unset !important;
+        }
+        .nav-col {
+          text-align: center !important;
+        }
+        .nav-col.right {
+          text-align: center !important;
+        }
+        .nav-link {
+          text-align: center !important;
+        }
+        .col-td {
+          width: 100% !important;
+        }
+        .nav-td {
+          padding-top: 20px !important;
+        }
+        .nav-link {
+          display: block;
+        }
+        .nav-link {
+          padding: 7px 0 !important;
+        }
+        .nav-logo {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f6f6f6">
+    <!-- ======> Header <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column padding="0px 15px">
+        <mj-text align="right" font-size="10px">
+          If you cannot see images, please <a href="#" style="text-decoration: underline; color: #333333;">click here</a>
+        </mj-text>
+        <mj-text padding="20px 0">
+          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+            <tbody>
+              <tr>
+                <td align="center" style="font-size: 0;">
+                  <table class="col" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="width: 100%; max-width: 285px; vertical-align: middle; display: inline-block;">
+                    <tbody>
+                      <tr>
+                        <td class="col-td" align="center" width="285">
+                          <table class="col-content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
+                            <tbody>
+                              <tr>
+                                <td style="text-align: left;">
+                                  <a href="#">
+                                    <img class="nav-logo" src="https://i.ibb.co/DMQXBvj/herb-olive-logo.png" alt="Herb &amp; Olive" style="width: 210px;">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="col" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="width: 100%; max-width: 285px; display: inline-block; vertical-align: middle;">
+                    <tbody>
+                      <tr>
+                        <td class="col-td nav-td" width="285">
+                          <table class="col-content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="right">
+                            <tbody>
+                              <tr>
+                                <td align="right">
+                                  <a class="nav-link" href="#" style="font-size: 11px; color: #333333;">Shop Olive Oil</a>
+                                  <a class="nav-link" href="#" style="font-size: 11px; padding-left: 20px; color: #333333;">Shop Therapeutics</a>
+                                  <a class="nav-link" href="#" style="font-size: 11px; padding-left: 20px; color: #333333;">Recipes</a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Header <====== -->
+    <!-- For Product Section -->
+    <!-- <tr>
+      <td align="center" style="font-size: 0;">
+        <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 285px;">
+          <tbody>
+            <tr>
+              <td bgcolor="" style="">
+                <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td align="center">
+                        <a href="#">
+                          <img src="https://i.ibb.co/LQhCWbX/organic-cbd-evo.png" alt="Organic DBC EVOO" style="width: 285px;">
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 285px;">
+          <tbody>
+            <tr>
+              <td bgcolor="" style="">
+                <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td align="center">
+                        <a href="#">
+                          <img src="https://i.ibb.co/LQhCWbX/organic-cbd-evo.png" alt="Organic DBC EVOO" style="width: 285px;">
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr> -->
+    <!-- For Product Section -->
+  </mj-body>
+</mjml>
