@@ -47,7 +47,7 @@
       @media only screen and (max-width: 599.8px) {
         .col {
           width: 100% !important;
-          max-width: unset !important;
+          max-width: 600px !important;
         }
         .nav-col {
           text-align: center !important;
@@ -60,6 +60,11 @@
         }
         .col-td {
           width: 100% !important;
+          max-width: 600px !important;
+        }
+        .col-content {
+          width: 100% !important;
+          max-width: 100% !important;
         }
         .nav-td {
           padding-top: 20px !important;
@@ -87,38 +92,26 @@
           <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
             <tbody>
               <tr>
-                <td align="center" style="font-size: 0;">
-                  <table class="col" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="width: 100%; max-width: 285px; vertical-align: middle; display: inline-block;">
+                <td align="center" bgcolor="" style="">
+                  <table width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
                     <tbody>
                       <tr>
-                        <td class="col-td" align="center" width="285">
-                          <table class="col-content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
-                            <tbody>
-                              <tr>
-                                <td style="text-align: left;">
-                                  <a href="#">
-                                    <img class="nav-logo" src="https://i.ibb.co/DMQXBvj/herb-olive-logo.png" alt="Herb &amp; Olive" style="width: 210px;">
-                                  </a>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
+                        <td>
+                          <a href="#">
+                            <img src="https://i.ibb.co/DMQXBvj/herb-olive-logo.png" alt="Herb &amp; Olive" style="width: 300px;"/>
+                          </a>
                         </td>
                       </tr>
                     </tbody>
                   </table>
-                  <table class="col" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="width: 100%; max-width: 285px; display: inline-block; vertical-align: middle;">
+                  <table width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
                     <tbody>
                       <tr>
-                        <td class="col-td nav-td" width="285">
-                          <table class="col-content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="right">
+                        <td bgcolor="" style="">
+                          <table class="" width="" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
                             <tbody>
                               <tr>
-                                <td align="right">
-                                  <a class="nav-link" href="#" style="font-size: 11px; color: #333333;">Shop Olive Oil</a>
-                                  <a class="nav-link" href="#" style="font-size: 11px; padding-left: 20px; color: #333333;">Shop Therapeutics</a>
-                                  <a class="nav-link" href="#" style="font-size: 11px; padding-left: 20px; color: #333333;">Recipes</a>
-                                </td>
+                                <td></td>
                               </tr>
                             </tbody>
                           </table>
