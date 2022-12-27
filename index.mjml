@@ -16,6 +16,7 @@
       <mj-section padding="0" />
       <mj-column padding="0" />
       <mj-image padding="0" />
+      <mj-button padding="0" />
 
     </mj-attributes>
 
@@ -69,6 +70,11 @@
         .white-space {
           display: block !important;
         }
+        .prod-img > table > tbody > tr > td,
+        .prod-img > table > tbody > tr > td > a > img {
+          width: 100% !important;
+        }
+      
       }
     </mj-style>
   </mj-head>
@@ -119,7 +125,7 @@
     <!-- ======> / Header <====== -->
     <!-- ======> Horizontal Rule <====== -->
     <mj-section background-color="#e6e6e1">
-      <mj-column>
+      <mj-column padding="0 15px">
         <mj-text>
           <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
             <tbody>
@@ -132,6 +138,37 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Horizontal Rule <====== -->
+    <!-- ======> Free Shipping <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column padding="32px 15px">
+        <mj-text align="center" line-height="21px">
+          Use the code <span style="font-weight: 600;">"freeshipping"</span> and we'll cover your shipping costs through the end of the year. 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Free Shipping <====== -->
+    <!-- ======> Organic CBD EVOO <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column vertical-align="middle" padding="10px 15px">
+        <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/LQhCWbX/organic-cbd-evo.png" alt="Organic CBD EVOO" />
+      </mj-column>
+      <mj-column vertical-align="middle" padding="10px 15px">
+        <mj-text text-transform="uppercase" font-size="22px" font-weight="700" line-height="30px">
+          Organic CBD EVOO Now In Minis!
+        </mj-text>
+        <mj-text line-height="36px">
+          These minis are the perfect size to take on your picnic. Keep one in your bag to enhance all your food while on the go. They also make for an excellent housewarming gift!
+        </mj-text>
+        <mj-text line-height="36px">
+          <p>• Contains 100mg organic whole hemp, full spectrum CBD</p>
+          <p>• 15mg CBD per TBSP</p>
+        </mj-text>
+        <mj-button align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
+          Shop CBD EVOO
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Organic CBD EVOO <====== -->
     <!-- For Product Section -->
     <!-- <tr>
       <td align="center" style="font-size: 0;">
