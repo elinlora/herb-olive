@@ -74,12 +74,13 @@
   </mj-head>
   <mj-body background-color="#f6f6f6">
     <!-- ======> Header <====== -->
+    <!-- <mj-include path="components/header.mjml" /> -->
     <mj-section background-color="#e6e6e1">
       <mj-column padding="0px 15px">
         <mj-text align="right" font-size="10px" padding="10px 0">
           If you cannot see images, please <a href="#" style="text-decoration: underline; color: #333333;">click here</a>
         </mj-text>
-        <mj-text padding="20px 0" align="center">
+        <mj-text padding="15px 0" align="center">
           <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
             <tbody>
               <tr>
@@ -116,6 +117,21 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Header <====== -->
+    <!-- ======> Horizontal Rule <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column>
+        <mj-text>
+          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+            <tbody>
+              <tr>
+                <td align="center" style="border-top: 2px solid #333333;"></td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Horizontal Rule <====== -->
     <!-- For Product Section -->
     <!-- <tr>
       <td align="center" style="font-size: 0;">
