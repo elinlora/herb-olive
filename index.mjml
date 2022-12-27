@@ -66,6 +66,7 @@
           display: block !important;
           padding: 15px 0 !important;
           background-color: #f5f5f1 !important;
+          letter-spacing: 1px !important;
         }
         .white-space {
           display: block !important;
@@ -169,6 +170,21 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Organic CBD EVOO <====== -->
+    <!-- ======> White Space <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column>
+        <mj-text>
+          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+            <tbody>
+              <tr>
+                <td style="padding: 15px 0;"></td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / White Space <====== -->
     <!-- For Product Section -->
     <!-- <tr>
       <td align="center" style="font-size: 0;">
