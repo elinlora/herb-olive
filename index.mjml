@@ -202,7 +202,7 @@
         <mj-text line-height="36px">
           If you haven't had a chance to try our Organic EVOO yet, now is the time to give it a taste. You'll save $10 by ordering now while we take care of your shipping costs. 
         </mj-text>
-        <mj-text line-height="36px">
+        <mj-text line-height="36px" padding-top="15px">
           This olive oil is delicious to consume, and is also great for skin and hair hydration. <span style="font-weight: 900;">Spend $100 and we'll send you a free mini bottle of Organic EVOO that you can travel with.</span>
         </mj-text>
         <mj-button css-class="prod-btn" href="#" align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
@@ -226,5 +226,27 @@
       </mj-column>
     </mj-section>
     <!-- ======> / White Space <====== -->
+    <!-- ======> Mini Gift Set <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column vertical-align="middle" padding="10px 15px">
+        <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/5r8MLDx/organic-cbd-evo-gift-set.jpg" alt="Organic CBD EVOO Mini Gift Set" />
+      </mj-column>
+      <mj-column vertical-align="middle" padding="10px 15px">
+        <mj-text css-class="prod-title" text-transform="uppercase" font-size="22px" font-weight="700" line-height="30px">
+          Mini Gift Set
+        </mj-text>
+        <mj-text line-height="36px">
+          Enjoy both kinds of Herb & Olive Organic Extra Virgin Olive Oil together. Now you can purchase one of each (with and without CBD).
+        </mj-text>
+        <mj-text line-height="36px">
+          <p>•100ml Organic EVOO</p>
+          <p>•100ml Organic EVOO w/ CBD (contains 100mg CBD)</p>
+        </mj-text>
+        <mj-button css-class="prod-btn" href="#" align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
+          Shop Minis
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Mini Gift Set <====== -->
   </mj-body>
 </mjml>
