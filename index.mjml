@@ -185,6 +185,27 @@
       </mj-column>
     </mj-section>
     <!-- ======> / White Space <====== -->
+    <!-- ======> Free Shipping CTA <====== -->
+    <mj-section background-color="#e6e6e1" direction="rtl">
+      <mj-column vertical-align="middle" padding="10px 15px">
+        <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/VqhLst8/organic-cbd-evo-2.gif" alt="Organic CBD EVOO" />
+      </mj-column>
+      <mj-column vertical-align="middle" padding="10px 15px">
+        <mj-text text-transform="uppercase" font-size="22px" font-weight="700" line-height="30px">
+          Free Shipping
+        </mj-text>
+        <mj-text line-height="36px">
+          If you haven't had a chance to try our Organic EVOO yet, now is the time to give it a taste. You'll save $10 by ordering now while we take care of your shipping costs. 
+        </mj-text>
+        <mj-text line-height="36px">
+          This olive oil is delicious to consume, and is also great for skin and hair hydration. <span style="font-weight: 900;">Spend $100 and we'll send you a free mini bottle of Organic EVOO that you can travel with.</span>
+        </mj-text>
+        <mj-button align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Free Shipping CTA <====== -->
     <!-- For Product Section -->
     <!-- <tr>
       <td align="center" style="font-size: 0;">
