@@ -56,7 +56,7 @@
         .nav-link-td {
           text-align: center !important;
           width: 600px !important;
-          padding-top: 20px;
+          padding-top: 20px !important;
         }
         .nav-img-td {
           text-align: center !important;
@@ -86,48 +86,7 @@
   </mj-head>
   <mj-body background-color="#f6f6f6">
     <!-- ======> Header <====== -->
-    <!-- <mj-include path="components/header.mjml" /> -->
-    <mj-section background-color="#e6e6e1">
-      <mj-column padding="0px 15px">
-        <mj-text align="right" font-size="10px" padding="10px 0">
-          If you cannot see images, please <a href="#" style="text-decoration: underline; color: #333333;">click here</a>
-        </mj-text>
-        <mj-text padding="15px 0" align="center">
-          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
-            <tbody>
-              <tr>
-                <td align="center" bgcolor="" style="font-size: 0;">
-                  <table class="col-table" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="width: 100%; max-width: 285px; display: inline-block; vertical-align: middle;">
-                    <tbody>
-                      <tr>
-                        <td class="nav-img-td" width="285px" align="left">
-                          <a href="#" style="text-align: left;">
-                            <img class="logo-img" src="https://i.ibb.co/DMQXBvj/herb-olive-logo.png" alt="" style="width: 210px;"/>
-                          </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table class="col-table" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="width: 100%; max-width: 285px; display: inline-block; vertical-align: middle;">
-                    <tbody>
-                      <tr>
-                        <td class="nav-link-td" width="285px" style="text-align: right;">
-                          <a class="nav-link" href="#" style="font-size: 12px; color: #333333;">Shop Olive Oil</a>
-                          <span class="white-space" style="font-size: 9px; display: none;">&nbsp;</span>
-                          <a class="nav-link" href="#" style="font-size: 12px; color: #333333; padding-left: 12px;">Shop Therapeutics</a>
-                          <span class="white-space" style="font-size: 9px; display: none;">&nbsp;</span>
-                          <a class="nav-link" href="#" style="font-size: 12px; color: #333333; padding-left: 12px;">Recipes</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-include path="components/header.mjml" />
     <!-- ======> / Header <====== -->
     <!-- ======> Horizontal Rule <====== -->
     <mj-section background-color="#e6e6e1">
@@ -307,60 +266,7 @@
     </mj-section>
     <!-- ======> / White Space <====== -->
     <!-- ======> Footer <====== -->
-    <!-- <mj-include path="components/footer.mjml" /> -->
-    <mj-section background-color="#e6e6e1">
-      <mj-column padding="30px 15px">
-        <mj-text>
-          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
-            <tbody>
-              <tr>
-                <td>
-                  <table width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left" style="vertical-align: top;">
-                    <tbody>
-                      <tr>
-                        <td align="left">
-                          <a href="#" style="font-size: 12px; text-decoration: underline; color: #333333;">info@herb-olive.com</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="right" style="vertical-align: top;">
-                    <tbody>
-                      <tr>
-                        <td align="right">
-                          <a href="#">
-                            <img src="https://i.ibb.co/L0LKxkG/facebook.png" alt="Facebook" style="width: 24px;">
-                          </a>
-                          <a href="#" style="padding-left: 15px;">
-                            <img src="https://i.ibb.co/YjYf6zT/twitter.png" alt="Twitter" style="width: 24px;">
-                          </a>
-                          <a href="#" style="padding-left: 15px;">
-                            <img src="https://i.ibb.co/ZhDMw9p/pinterest.png" alt="Pinterest" style="width: 24px;">
-                          </a>
-                          <a href="#" style="padding-left: 15px;">
-                            <img src="https://i.ibb.co/rmz9qFn/instagram.png" alt="Instagram" style="width: 24px;">
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="right" style="padding-top: 30px;">
-                          <p style="font-size: 12px; line-height: 15px; color: #333333;">This email was sent to hello@SmilesDavis.yeah because you've subscribed on herb-olive.com, a partner site, or made a purchase.</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="right">
-                          <a href="#" style="font-size: 12px; line-height: 15px; text-decoration: underline; color: #333333;">Unsubscribe</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-include path="components/footer.mjml" />
     <!-- ======> / Footer <====== -->
   </mj-body>
 </mjml>
