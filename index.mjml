@@ -75,7 +75,12 @@
         .prod-img > table > tbody > tr > td > a > img {
           width: 100% !important;
         }
-      
+        .prod-title {
+          padding: 15px 0 !important;
+        }
+        .prod-btn > table {
+          padding-top: 6px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -154,7 +159,7 @@
         <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/LQhCWbX/organic-cbd-evo.png" alt="Organic CBD EVOO" />
       </mj-column>
       <mj-column vertical-align="middle" padding="10px 15px">
-        <mj-text text-transform="uppercase" font-size="22px" font-weight="700" line-height="30px">
+        <mj-text css-class="prod-title" text-transform="uppercase" font-size="22px" font-weight="700" line-height="30px">
           Organic CBD EVOO Now In Minis!
         </mj-text>
         <mj-text line-height="36px">
@@ -164,7 +169,7 @@
           <p>• Contains 100mg organic whole hemp, full spectrum CBD</p>
           <p>• 15mg CBD per TBSP</p>
         </mj-text>
-        <mj-button align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
+        <mj-button css-class="prod-btn" href="#" align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
           Shop CBD EVOO
         </mj-button>
       </mj-column>
@@ -191,7 +196,7 @@
         <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/VqhLst8/organic-cbd-evo-2.gif" alt="Organic CBD EVOO" />
       </mj-column>
       <mj-column vertical-align="middle" padding="10px 15px">
-        <mj-text text-transform="uppercase" font-size="22px" font-weight="700" line-height="30px">
+        <mj-text css-class="prod-title" text-transform="uppercase" font-size="22px" font-weight="700" line-height="30px">
           Free Shipping
         </mj-text>
         <mj-text line-height="36px">
@@ -200,55 +205,26 @@
         <mj-text line-height="36px">
           This olive oil is delicious to consume, and is also great for skin and hair hydration. <span style="font-weight: 900;">Spend $100 and we'll send you a free mini bottle of Organic EVOO that you can travel with.</span>
         </mj-text>
-        <mj-button align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
+        <mj-button css-class="prod-btn" href="#" align="left" background-color="#173c3c" border-radius="0" letter-spacing="2px" padding-top="12px" text-transform="uppercase">
           Shop Now
         </mj-button>
       </mj-column>
     </mj-section>
     <!-- ======> / Free Shipping CTA <====== -->
-    <!-- For Product Section -->
-    <!-- <tr>
-      <td align="center" style="font-size: 0;">
-        <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 285px;">
-          <tbody>
-            <tr>
-              <td bgcolor="" style="">
-                <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
-                  <tbody>
-                    <tr>
-                      <td align="center">
-                        <a href="#">
-                          <img src="https://i.ibb.co/LQhCWbX/organic-cbd-evo.png" alt="Organic DBC EVOO" style="width: 285px;">
-                        </a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 285px;">
-          <tbody>
-            <tr>
-              <td bgcolor="" style="">
-                <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
-                  <tbody>
-                    <tr>
-                      <td align="center">
-                        <a href="#">
-                          <img src="https://i.ibb.co/LQhCWbX/organic-cbd-evo.png" alt="Organic DBC EVOO" style="width: 285px;">
-                        </a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr> -->
-    <!-- For Product Section -->
+    <!-- ======> White Space <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column>
+        <mj-text>
+          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+            <tbody>
+              <tr>
+                <td style="padding: 15px 0;"></td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / White Space <====== -->
   </mj-body>
 </mjml>
