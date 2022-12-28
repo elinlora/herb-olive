@@ -248,5 +248,48 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Mini Gift Set <====== -->
+    <!-- ======> White Space <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column>
+        <mj-text>
+          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+            <tbody>
+              <tr>
+                <td style="padding: 15px 0;"></td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / White Space <====== -->
+    <!-- ======> Organic EVOO Product Description <====== -->
+    <mj-section background-color="#e6e6e1">
+      <mj-column padding="0 15px">
+        <mj-text align="left" font-weight="700">
+          Herb &amp; Olive Organic EVOO is:
+        </mj-text>
+        <mj-text>
+          <ul>
+            <li style="line-height: 24px;">Certified Organic</li>
+            <li style="line-height: 24px;">Grown on a small family farm in Northern California</li>
+            <li style="line-height: 24px;">100% Arbequina olives</li>
+            <li style="line-height: 24px;">Harvested - November 2020</li>
+            <li style="line-height: 24px;">Delicious and versatile</li>
+            <li style="line-height: 24px;">13.5oz (400ml) of olive oil/3.4oz(100ml) of olive oil</li>
+          </ul>
+        </mj-text>
+        <mj-text line-height="24px">
+          The arbequina olives used in our November 2020 Harvest Organic Extra Virgin Olive Oil made it to your bottle because of their resilience to the natural forces of nature. This olive oil is bright, vibrant, peppery and bold.
+        </mj-text>
+        <mj-text line-height="24px" padding-top="15px">
+          Every bottle of H&amp;O Organic EVOO is made with 100% organic arbequnia olives. Most store bought olive oils are blends of a variety of olives from numerous countries. Herb & Olive Organic EVOO is made with only one varietal, so the flavor is fragrant and unique to the Northern California region. 
+        </mj-text>
+        <mj-text line-height="24px" padding-top="15px">
+          Enjoy.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Organic EVOO Product Description <====== -->
   </mj-body>
 </mjml>
